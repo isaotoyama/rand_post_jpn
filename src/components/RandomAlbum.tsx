@@ -1,8 +1,11 @@
 import React from 'react';
-import { Disc3, Music2, User, Calendar, Users, Clock, Target } from 'lucide-react';
+import { Disc3, Music2, User, Calendar, Users, Clock, Target, Play, Pause, RotateCcw } from 'lucide-react';
 import musicData from '../data/music.json';
 
 function getRandomItem<T>(array: T[]): T {
+  if (!Array.isArray(array) || array.length === 0) {
+    throw new Error('Invalid array provided to getRandomItem');
+  }
   return array[Math.floor(Math.random() * array.length)];
 }
 
@@ -26,19 +29,67 @@ function getRandomTracks(): string[] {
 }
 
 export function RandomAlbum() {
-  const [albumData, setAlbumData] = React.useState({
-    artist: getRandomItem(musicData.artists),
-    year: getRandomYear(),
-    albumTitle: getRandomItem(musicData.albums),
-    tracks: getRandomTracks()
-  });
-
-  const regenerate = () => {
-    setAlbumData({
-      artist: getRandomItem(musicData.artists),
+  const [albumData, setAlbumData] = React.useState(() => {
+    const artist = getRandomItem(musicData.artists);
+    return {
+      artist,
       year: getRandomYear(),
       albumTitle: getRandomItem(musicData.albums),
-      tracks: getRandomTracks()
+      tracks: getRandomTracks(),
+      demographics: artist.demographics
+    };
+  });
+
+  const [timeLeft, setTimeLeft] = React.useState(30 * 60); // 30 minutes in seconds
+  const [isRunning, setIsRunning] = React.useState(false);
+  const [audio] = React.useState(new Audio('/timer-end.mp3'));
+  const intervalRef = React.useRef<number>();
+
+  React.useEffect(() => {
+    if (isRunning && timeLeft > 0) {
+      intervalRef.current = window.setInterval(() => {
+        setTimeLeft((prev) => {
+          if (prev <= 1) {
+            setIsRunning(false);
+            audio.play();
+            clearInterval(intervalRef.current);
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+    }
+
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+      }
+    };
+  }, [isRunning, audio]);
+
+  const toggleTimer = () => {
+    setIsRunning(!isRunning);
+  };
+
+  const resetTimer = () => {
+    setIsRunning(false);
+    setTimeLeft(30 * 60);
+  };
+
+  const formatTime = (seconds: number): string => {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+  };
+
+  const regenerate = () => {
+    const artist = getRandomItem(musicData.artists);
+    setAlbumData({
+      artist,
+      year: getRandomYear(),
+      albumTitle: getRandomItem(musicData.albums),
+      tracks: getRandomTracks(),
+      demographics: artist.demographics
     });
   };
 
@@ -67,25 +118,25 @@ export function RandomAlbum() {
               <div className="flex items-center gap-2">
                 <Users className="w-5 h-5 text-indigo-600" />
                 <span className="text-gray-700">
-                  <span className="font-medium">年齢層：</span> {albumData.artist.demographics.primaryAge}
+                  <span className="font-medium">年齢層：</span> {albumData.demographics.primaryAge}
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <Clock className="w-5 h-5 text-indigo-600" />
                 <span className="text-gray-700">
-                  <span className="font-medium">活動期間：</span> {albumData.artist.demographics.era}
+                  <span className="font-medium">活動期間：</span> {albumData.demographics.era}
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <Target className="w-5 h-5 text-indigo-600" />
                 <span className="text-gray-700">
-                  <span className="font-medium">主なファン層：</span> {albumData.artist.demographics.mainAudience}
+                  <span className="font-medium">主なファン層：</span> {albumData.demographics.mainAudience}
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <Users className="w-5 h-5 text-indigo-600" />
                 <span className="text-gray-700">
-                  <span className="font-medium">コアファン：</span> {albumData.artist.demographics.coreFollowing}
+                  <span className="font-medium">コアファン：</span> {albumData.demographics.coreFollowing}
                 </span>
               </div>
             </div>
@@ -113,6 +164,38 @@ export function RandomAlbum() {
                 </li>
               ))}
             </ol>
+          </div>
+
+          <div className="mt-8 p-4 bg-gray-50 rounded-lg">
+            <div className="flex flex-col items-center gap-4">
+              <h2 className="text-2xl font-bold text-gray-800">{formatTime(timeLeft)}</h2>
+              <div className="flex gap-4">
+                <button
+                  onClick={toggleTimer}
+                  className={`px-6 py-2 rounded-lg flex items-center gap-2 ${
+                    isRunning
+                      ? 'bg-red-600 hover:bg-red-700'
+                      : 'bg-green-600 hover:bg-green-700'
+                  } text-white transition-colors`}
+                >
+                  {isRunning ? (
+                    <>
+                      <Pause className="w-5 h-5" /> 一時停止
+                    </>
+                  ) : (
+                    <>
+                      <Play className="w-5 h-5" /> スタート
+                    </>
+                  )}
+                </button>
+                <button
+                  onClick={resetTimer}
+                  className="px-6 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors flex items-center gap-2"
+                >
+                  <RotateCcw className="w-5 h-5" /> リセット
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -6,7 +6,11 @@
         "primaryAge": "18-35",
         "season": "夏",
         "mainAudience": "ロック・オルタナティブ音楽ファン",
-        "atmosphere": "自然との調和"
+        "atmosphere": "自然との調和",
+        "targetIncome": "中〜高所得層",
+        "lifestyle": "アウトドア好き、音楽愛好家",
+        "socialMediaEngagement": "高（Instagram, Twitter）",
+        "purchasingBehavior": "体験重視、高額チケット許容"
       },
       "lineup": [
         "RADWIMPS",
@@ -27,7 +31,11 @@
         "primaryAge": "16-40",
         "season": "夏",
         "mainAudience": "J-POP・ロックファン",
-        "atmosphere": "都市型フェス"
+        "atmosphere": "都市型フェス",
+        "targetIncome": "中所得層",
+        "lifestyle": "トレンド重視、SNS活用",
+        "socialMediaEngagement": "非常に高（全プラットフォーム）",
+        "purchasingBehavior": "ファッション重視、グッズ購入"
       },
       "lineup": [
         "B'z",
@@ -48,7 +56,11 @@
         "primaryAge": "15-45",
         "season": "夏",
         "mainAudience": "ロック・J-POPファン",
-        "atmosphere": "熱狂的"
+        "atmosphere": "熱狂的",
+        "targetIncome": "学生〜中所得層",
+        "lifestyle": "音楽中心の生活",
+        "socialMediaEngagement": "高（Twitter, YouTube）",
+        "purchasingBehavior": "音楽関連商品重視"
       },
       "lineup": [
         "マキシマム ザ ホルモン",
@@ -68,6 +80,16 @@
     {
       "title": "月光の剣",
       "genre": "ファンタジー小説",
+      "demographics": {
+        "primaryAge": "15-35",
+        "targetGender": "全性別",
+        "educationLevel": "中学生以上",
+        "readingHabits": "小説愛好家",
+        "interests": "ファンタジー、和風文化",
+        "purchaseChannel": "書店、オンライン",
+        "pricePoint": "中価格帯",
+        "marketPosition": "ライトノベルとハードファンタジーの中間"
+      },
       "style": {
         "theme": "和風ファンタジー",
         "colors": "深い藍色と金色",
@@ -89,6 +111,16 @@
     {
       "title": "神隠しの森",
       "genre": "現代ファンタジー",
+      "demographics": {
+        "primaryAge": "12-30",
+        "targetGender": "全性別",
+        "educationLevel": "中学生以上",
+        "readingHabits": "ライトノベル読者",
+        "interests": "日本の民話、現代ファンタジー",
+        "purchaseChannel": "書店、電子書籍",
+        "pricePoint": "低〜中価格帯",
+        "marketPosition": "YA小説市場"
+      },
       "style": {
         "theme": "日本の民話",
         "colors": "深緑と朱色",
@@ -110,6 +142,16 @@
     {
       "title": "龍の系譜",
       "genre": "歴史ファンタジー",
+      "demographics": {
+        "primaryAge": "18-45",
+        "targetGender": "全性別",
+        "educationLevel": "高校生以上",
+        "readingHabits": "歴史小説愛好家",
+        "interests": "日本史、ファンタジー",
+        "purchaseChannel": "書店、オンライン",
+        "pricePoint": "中〜高価格帯",
+        "marketPosition": "本格歴史ファンタジー"
+      },
       "style": {
         "theme": "戦国時代",
         "colors": "黒と赤",
@@ -133,6 +175,16 @@
     {
       "name": "禅の雫",
       "type": "クラフト緑茶",
+      "demographics": {
+        "primaryAge": "25-50",
+        "targetMarket": "健康志向の都市生活者",
+        "lifestyle": "ウェルネス重視",
+        "purchasingPower": "中〜高所得層",
+        "consumptionHabits": "プレミアム飲料愛好家",
+        "healthConsciousness": "高",
+        "brandLoyalty": "高",
+        "shoppingVenue": "専門店、オーガニックショップ"
+      },
       "style": {
         "theme": "禅/和",
         "colors": "深緑と白",
@@ -154,6 +206,16 @@
     {
       "name": "夏雲",
       "type": "スパークリング和紅茶",
+      "demographics": {
+        "primaryAge": "18-35",
+        "targetMarket": "トレンド感度の高い若年層",
+        "lifestyle": "アクティブ、SNS活用",
+        "purchasingPower": "中所得層",
+        "consumptionHabits": "カフェ利用頻繁",
+        "healthConsciousness": "中",
+        "brandLoyalty": "中",
+        "shoppingVenue": "コンビニ、カフェ"
+      },
       "style": {
         "theme": "夏の涼",
         "colors": "藍色とシルバー",
@@ -175,6 +237,16 @@
     {
       "name": "森の恵み",
       "type": "発酵飲料",
+      "demographics": {
+        "primaryAge": "30-60",
+        "targetMarket": "健康志向の成熟層",
+        "lifestyle": "自然派、オーガニック重視",
+        "purchasingPower": "中〜高所得層",
+        "consumptionHabits": "自然食品愛好家",
+        "healthConsciousness": "非常に高",
+        "brandLoyalty": "高",
+        "shoppingVenue": "自然食品店、専門店"
+      },
       "style": {
         "theme": "自然/癒し",
         "colors": "翡翠色と琥珀色",
@@ -198,6 +270,16 @@
     {
       "name": "匠ブレンド",
       "roast": "中煎り",
+      "demographics": {
+        "primaryAge": "25-45",
+        "targetMarket": "コーヒー通",
+        "lifestyle": "こだわり派",
+        "purchasingPower": "中〜高所得層",
+        "consumptionHabits": "自家抽出派",
+        "coffeeKnowledge": "高",
+        "brandLoyalty": "高",
+        "preferredBrew": "ドリップ、フレンチプレス"
+      },
       "style": {
         "theme": "職人技",
         "colors": "焦茶と金",
@@ -219,6 +301,16 @@
     {
       "name": "月夜の珈琲",
       "roast": "深煎り",
+      "demographics": {
+        "primaryAge": "30-60",
+        "targetMarket": "伝統派コーヒー愛好家",
+        "lifestyle": "落ち着いた生活",
+        "purchasingPower": "中〜高所得層",
+        "consumptionHabits": "毎日飲用",
+        "coffeeKnowledge": "中〜高",
+        "brandLoyalty": "高",
+        "preferredBrew": "ペーパードリップ"
+      },
       "style": {
         "theme": "夜の静寂",
         "colors": "漆黒と銀",
@@ -240,6 +332,16 @@
     {
       "name": "朝露ブレンド",
       "roast": "浅煎り",
+      "demographics": {
+        "primaryAge": "20-40",
+        "targetMarket": "カフェ通の若手社会人",
+        "lifestyle": "アーバン、トレンド重視",
+        "purchasingPower": "中所得層",
+        "consumptionHabits": "カフェ利用",
+        "coffeeKnowledge": "中",
+        "brandLoyalty": "中",
+        "preferredBrew": "ハンドドリップ、エアロプレス"
+      },
       "style": {
         "theme": "朝の目覚め",
         "colors": "明るい茶色と緑",
@@ -256,6 +358,98 @@
         "すっきりとした後味",
         "ジューシーな味わい",
         "優しい甘み"
+      ]
+    }
+  ],
+  "cdcovers": [
+    {
+      "name": "夜空のシンフォニー",
+      "artist": "RADWIMPS",
+      "demographics": {
+        "primaryAge": "15-35",
+        "mainAudience": "ロック/アニメファン",
+        "coreFollowing": "Z世代、ミレニアル世代",
+        "marketSegment": "学生・若手社会人",
+        "listeningHabits": "ストリーミング、ライブ参加",
+        "socialMediaPresence": "高い（Twitter, Instagram）"
+      },
+      "style": {
+        "theme": "星空と都市",
+        "colors": "深い紺色とネオン",
+        "imagery": "夜景と星座",
+        "typography": "モダンな和文書体"
+      },
+      "elements": [
+        "都市の夜景シルエット",
+        "流れ星のモチーフ",
+        "光る建物の窓",
+        "星座のライン",
+        "バンドロゴ",
+        "アルバムタイトル",
+        "アーティスト名",
+        "レーベルロゴ",
+        "バーコード",
+        "著作権表示"
+      ]
+    },
+    {
+      "name": "桜流し",
+      "artist": "宇多田ヒカル",
+      "demographics": {
+        "primaryAge": "20-45",
+        "mainAudience": "J-POP/R&Bファン",
+        "coreFollowing": "ミレニアル世代、X世代",
+        "marketSegment": "社会人、主婦層",
+        "listeningHabits": "ストリーミング、CD購入",
+        "socialMediaPresence": "中程度（Instagram）"
+      },
+      "style": {
+        "theme": "和モダン",
+        "colors": "淡いピンクと墨色",
+        "imagery": "桜と水墨画",
+        "typography": "毛筆風書体"
+      },
+      "elements": [
+        "舞い散る桜びら",
+        "水墨画風の背景",
+        "アーティスト名",
+        "アルバムタイトル",
+        "和柄パターン",
+        "曲目リスト",
+        "クレジット情報",
+        "レーベルロゴ",
+        "バーコード",
+        "著作権表示"
+      ]
+    },
+    {
+      "name": "電子庭園",
+      "artist": "Perfume",
+      "demographics": {
+        "primaryAge": "18-40",
+        "mainAudience": "テクノポップ/ダンスミュージックファン",
+        "coreFollowing": "Z世代、ミレニアル世代",
+        "marketSegment": "ファッション感度高め、都市部在住",
+        "listeningHabits": "ライブ参加、グッズ購入",
+        "socialMediaPresence": "非常に高い（全プラットフォーム）"
+      },
+      "style": {
+        "theme": "サイバーパンク",
+        "colors": "ネオンピンクと電子ブルー",
+        "imagery": "デジタルガーデン",
+        "typography": "未来的なフォント"
+      },
+      "elements": [
+        "デジタル花園",
+        "回路パターン",
+        "ホログラム効果",
+        "グリッチエフェクト",
+        "3Dレンダリング",
+        "バンドロゴ",
+        "アルバム情報",
+        "QRコード",
+        "バーコード",
+        "著作権表示"
       ]
     }
   ]
