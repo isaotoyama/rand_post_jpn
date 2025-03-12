@@ -1,9 +1,9 @@
 import React from 'react';
-import { Palette, BookOpen, Wine, Coffee, Users, Calendar, Target, Sparkles, Music, List, Disc3, DollarSign, ShoppingBag, Heart, Activity, Play, Pause, RotateCcw } from 'lucide-react';
+import { Palette, BookOpen, Wine, Coffee, Users, Calendar, Target, Sparkles, Music, List, Disc3, DollarSign, ShoppingBag, Heart, Activity, Play, Pause, RotateCcw, Film, User2, Clock } from 'lucide-react';
 import designData from '../data/designs.json';
 import musicData from '../data/music.json';
 
-type DesignType = 'festival' | 'book' | 'beverage' | 'coffee' | 'cdcover';
+type DesignType = 'festival' | 'book' | 'beverage' | 'coffee' | 'cdcover' | 'movieposter';
 
 function getRandomItem<T>(array: T[]): T {
   if (!Array.isArray(array) || array.length === 0) {
@@ -99,6 +99,9 @@ export function RandomDesign() {
       case 'cdcover':
         data = getRandomItem(designData.cdcovers);
         setRandomArtist(getRandomArtist());
+        break;
+      case 'movieposter':
+        data = getRandomItem(designData.movieposters);
         break;
       default:
         data = getRandomItem(designData.festivals);
@@ -258,6 +261,35 @@ export function RandomDesign() {
             </div>
           </div>
         );
+      case 'movieposter':
+        return (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="flex items-center gap-2">
+              <Users className="w-5 h-5 text-indigo-600" />
+              <span className="text-gray-700">
+                <span className="font-medium">年齢層：</span> {design.data.demographics.primaryAge}
+              </span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Target className="w-5 h-5 text-indigo-600" />
+              <span className="text-gray-700">
+                <span className="font-medium">主な観客層：</span> {design.data.demographics.mainAudience}
+              </span>
+            </div>
+            <div className="flex items-center gap-2">
+              <User2 className="w-5 h-5 text-indigo-600" />
+              <span className="text-gray-700">
+                <span className="font-medium">ターゲット市場：</span> {design.data.demographics.targetMarket}
+              </span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Clock className="w-5 h-5 text-indigo-600" />
+              <span className="text-gray-700">
+                <span className="font-medium">視聴習慣：</span> {design.data.demographics.viewingHabits}
+              </span>
+            </div>
+          </div>
+        );
       default:
         return null;
     }
@@ -391,7 +423,7 @@ export function RandomDesign() {
                   <div className="flex items-center gap-2">
                     <Palette className="w-5 h-5 text-indigo-600" />
                     <span className="text-gray-700">
-                      <span className="font-medium">テーマ：</span> {design.data.style.theme}
+                      <span className="font-medium">テーマ：</span> {design.data .style.theme}
                     </span>
                   </div>
                   <div className="flex items-center gap-2">
@@ -522,6 +554,92 @@ export function RandomDesign() {
             </div>
           </>
         );
+      case 'movieposter':
+        return (
+          <>
+            <div className="flex items-center gap-3">
+              <Film className="w-6 h-6 text-indigo-600" />
+              <span className="text-xl font-semibold">{design.data.title}</span>
+            </div>
+            <div className="bg-gray-50 p-4 rounded-lg space-y-3">
+              <h3 className="text-lg font-semibold text-gray-700 mb-2">映画ポスター詳細</h3>
+              {renderDemographics()}
+              <div className="mt-4 pt-4 border-t border-gray-200">
+                <h4 className="text-lg font-semibold text-gray-700 mb-2">デザイン仕様</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="flex items-center gap-2">
+                    <Palette className="w-5 h-5 text-indigo-600" />
+                    <span className="text-gray-700">
+                      <span className="font-medium">テーマ：</span> {design.data.style.theme}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Target className="w-5 h-5 text-indigo-600" />
+                    <span className="text-gray-700">
+                      <span className="font-medium">配色：</span> {design.data.style.colors}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Sparkles className="w-5 h-5 text-indigo-600" />
+                    <span className="text-gray-700">
+                      <span className="font-medium">イメージ：</span> {design.data.style.imagery}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <List className="w-5 h-5 text-indigo-600" />
+                    <span className="text-gray-700">
+                      <span className="font-medium">書体：</span> {design.data.style.typography}
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <List className="w-5 h-5 text-indigo-600" />
+                  <span className="font-medium text-gray-700">デザイン要素：</span>
+                </div>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                  {design.data.elements.map((element, index) => (
+                    <li key={index} className="flex items-center gap-2 text-gray-700">
+                      <span className="w-6 text-right">{index + 1}.</span>
+                      {element}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="mt-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <User2 className="w-5 h-5 text-indigo-600" />
+                  <span className="font-medium text-gray-700">キャスト：</span>
+                </div>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                  {design.data.cast.map((actor, index) => (
+                    <li key={index} className="flex items-center gap-2 text-gray-700">
+                      <span className="w-6 text-right">{index + 1}.</span>
+                      {actor}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="flex items-center gap-2">
+                  <Film className="w-5 h-5 text-indigo-600" />
+                  <span className="text-gray-700">
+                    <span className="font-medium">ジャンル：</span> {design.data.genre}
+                  </span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Calendar className="w-5 h-5 text-indigo-600" />
+                  <span className="text-gray-700">
+                    <span className="font-medium">公開予定：</span> {design.data.releaseDate}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </>
+        );
+      default:
+        return null;
     }
   };
 
@@ -570,6 +688,14 @@ export function RandomDesign() {
               }`}
             >
               アルバムカバー
+            </button>
+            <button
+              onClick={() => regenerate('movieposter')}
+              className={`px-4 py-2 rounded-lg transition-colors ${
+                designType === 'movieposter' ? 'bg-indigo-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              }`}
+            >
+              映画ポスター
             </button>
           </div>
         </div>

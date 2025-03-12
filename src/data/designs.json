@@ -1,456 +1,448 @@
 {
   "festivals": [
     {
-      "name": "フジロック・フェスティバル",
+      "name": "サマーソニック 2025",
       "demographics": {
-        "primaryAge": "18-35",
-        "season": "夏",
-        "mainAudience": "ロック・オルタナティブ音楽ファン",
-        "atmosphere": "自然との調和",
-        "targetIncome": "中〜高所得層",
-        "lifestyle": "アウトドア好き、音楽愛好家",
-        "socialMediaEngagement": "高（Instagram, Twitter）",
-        "purchasingBehavior": "体験重視、高額チケット許容"
+        "primaryAge": "18-35歳",
+        "mainAudience": "音楽愛好家",
+        "targetIncome": "中～高所得層",
+        "lifestyle": "アクティブ、トレンド重視"
       },
       "lineup": [
-        "RADWIMPS",
+        "The Strokes",
+        "Radiohead",
+        "BABYMETAL",
+        "椎名林檎",
         "米津玄師",
         "King Gnu",
         "あいみょん",
-        "Official髭男dism",
-        "椎名林檎",
-        "BABYMETAL",
+        "YOASOBI"
+      ]
+    },
+    {
+      "name": "ROCK IN JAPAN FESTIVAL 2025",
+      "demographics": {
+        "primaryAge": "16-40歳",
+        "mainAudience": "ロック・邦楽ファン",
+        "targetIncome": "幅広い所得層",
+        "lifestyle": "音楽中心のライフスタイル"
+      },
+      "lineup": [
         "ONE OK ROCK",
-        "宇多田ヒカル",
-        "サカナクション"
-      ]
-    },
-    {
-      "name": "サマーソニック",
-      "demographics": {
-        "primaryAge": "16-40",
-        "season": "夏",
-        "mainAudience": "J-POP・ロックファン",
-        "atmosphere": "都市型フェス",
-        "targetIncome": "中所得層",
-        "lifestyle": "トレンド重視、SNS活用",
-        "socialMediaEngagement": "非常に高（全プラットフォーム）",
-        "purchasingBehavior": "ファッション重視、グッズ購入"
-      },
-      "lineup": [
-        "B'z",
-        "Mr.Children",
+        "Official髭男dism",
+        "Mrs. GREEN APPLE",
         "back number",
-        "YOASOBI",
-        "Perfume",
-        "LUNA SEA",
-        "THE YELLOW MONKEY",
-        "GLAY",
-        "L'Arc〜en〜Ciel",
-        "Dragon Ash"
+        "サカナクション",
+        "RADWIMPS",
+        "マキシマム ザ ホルモン",
+        "10-FEET"
       ]
     },
     {
-      "name": "ロック・イン・ジャパン",
+      "name": "FUJI JAZZ FESTIVAL 2025",
       "demographics": {
-        "primaryAge": "15-45",
-        "season": "夏",
-        "mainAudience": "ロック・J-POPファン",
-        "atmosphere": "熱狂的",
-        "targetIncome": "学生〜中所得層",
-        "lifestyle": "音楽中心の生活",
-        "socialMediaEngagement": "高（Twitter, YouTube）",
-        "purchasingBehavior": "音楽関連商品重視"
+        "primaryAge": "25-55歳",
+        "mainAudience": "ジャズ愛好家",
+        "targetIncome": "高所得層",
+        "lifestyle": "芸術・文化重視"
       },
       "lineup": [
-        "マキシマム ザ ホルモン",
-        "アジカン",
-        "ポルノグラフィティ",
-        "スピッツ",
-        "東京スカパラダイスオーケストラ",
-        "10-FEET",
-        "ELLEGARDEN",
-        "BUMP OF CHICKEN",
-        "ASIAN KUNG-FU GENERATION",
-        "MONGOL800"
+        "Herbie Hancock",
+        "Chick Corea",
+        "上原ひろみ",
+        "小曽根真",
+        "渡辺貞夫",
+        "JUJU",
+        "SOIL & \"PIMP\" SESSIONS",
+        "fox capture plan"
+      ]
+    },
+    {
+      "name": "EDM WONDERLAND 2025",
+      "demographics": {
+        "primaryAge": "18-30歳",
+        "mainAudience": "EDMファン",
+        "targetIncome": "中所得層",
+        "lifestyle": "ナイトライフ・パーティー重視"
+      },
+      "lineup": [
+        "Skrillex",
+        "Zedd",
+        "Martin Garrix",
+        "Kygo",
+        "中田ヤスタカ",
+        "Taku Takahashi",
+        "TeddyLoid",
+        "Yasutaka Nakata"
+      ]
+    },
+    {
+      "name": "TRADITIONAL JAPAN FEST 2025",
+      "demographics": {
+        "primaryAge": "20-60歳",
+        "mainAudience": "伝統音楽ファン",
+        "targetIncome": "中～高所得層",
+        "lifestyle": "日本文化・伝統重視"
+      },
+      "lineup": [
+        "吉田兄弟",
+        "和楽器バンド",
+        "ASKA",
+        "一青窈",
+        "小椋佳",
+        "坂本冬美",
+        "石川さゆり",
+        "葉加瀬太郎"
+      ]
+    },
+    {
+      "name": "URBAN BEATS FESTIVAL 2025",
+      "demographics": {
+        "primaryAge": "16-35歳",
+        "mainAudience": "ヒップホップ・R&Bファン",
+        "targetIncome": "中所得層",
+        "lifestyle": "ストリートカルチャー重視"
+      },
+      "lineup": [
+        "KOHH",
+        "JP THE WAVY",
+        "SKY-HI",
+        "KREVA",
+        "PUNPEE",
+        "ZUTOMAYO",
+        "RHYMESTER",
+        "HONEST BOYZ"
+      ]
+    },
+    {
+      "name": "INDIE MUSIC GATHERING 2025",
+      "demographics": {
+        "primaryAge": "18-35歳",
+        "mainAudience": "インディーズ音楽ファン",
+        "targetIncome": "中所得層",
+        "lifestyle": "オルタナティブカルチャー重視"
+      },
+      "lineup": [
+        "never young beach",
+        "Yogee New Waves",
+        "DYGL",
+        "Tempalay",
+        "MONO NO AWARE",
+        "TENDOUJI",
+        "Suchmos",
+        "cero"
+      ]
+    },
+    {
+      "name": "METAL KINGDOM 2025",
+      "demographics": {
+        "primaryAge": "20-45歳",
+        "mainAudience": "メタル・ハードロックファン",
+        "targetIncome": "中所得層",
+        "lifestyle": "ヘビーミュージック文化重視"
+      },
+      "lineup": [
+        "DIR EN GREY",
+        "THE GAZETTE",
+        "CROSSFAITH",
+        "Crystal Lake",
+        "MAXIMUM THE HORMONE",
+        "LOUDNESS",
+        "UNLUCKY MORPHEUS",
+        "LOVEBITES"
+      ]
+    },
+    {
+      "name": "ACOUSTIC GARDEN 2025",
+      "demographics": {
+        "primaryAge": "25-50歳",
+        "mainAudience": "フォーク・アコースティック音楽ファン",
+        "targetIncome": "中～高所得層",
+        "lifestyle": "ナチュラル・スローライフ重視"
+      },
+      "lineup": [
+        "山崎まさよし",
+        "竹原ピストル",
+        "原田知世",
+        "さだまさし",
+        "奥田民生",
+        "浜端ヨウヘイ",
+        "大橋トリオ",
+        "Nabowa"
+      ]
+    },
+    {
+      "name": "VOCALOID DREAM 2025",
+      "demographics": {
+        "primaryAge": "15-30歳",
+        "mainAudience": "ボーカロイドファン",
+        "targetIncome": "学生～若手社会人",
+        "lifestyle": "デジタルカルチャー重視"
+      },
+      "lineup": [
+        "初音ミク",
+        "鏡音リン・レン",
+        "DECO*27",
+        "ピノキオピー",
+        "かいりきベア",
+        "Mitchie M",
+        "MARETU",
+        "n-buna"
+      ]
+    },
+    {
+      "name": "WORLD MUSIC EXPO 2025",
+      "demographics": {
+        "primaryAge": "20-60歳",
+        "mainAudience": "ワールドミュージックファン",
+        "targetIncome": "中～高所得層",
+        "lifestyle": "多文化・国際交流重視"
+      },
+      "lineup": [
+        "GANGA ZUMBA",
+        "MINYO CRUSADERS",
+        "在日ファンク",
+        "OOIOO",
+        "渋さ知らズ",
+        "ROTH BART BARON",
+        "水カン",
+        "AJATE"
       ]
     }
   ],
   "books": [
     {
-      "title": "月光の剣",
-      "genre": "ファンタジー小説",
+      "title": "デジタル時代の創造性",
       "demographics": {
-        "primaryAge": "15-35",
-        "targetGender": "全性別",
-        "educationLevel": "中学生以上",
-        "readingHabits": "小説愛好家",
-        "interests": "ファンタジー、和風文化",
-        "purchaseChannel": "書店、オンライン",
-        "pricePoint": "中価格帯",
-        "marketPosition": "ライトノベルとハードファンタジーの中間"
+        "primaryAge": "25-45歳",
+        "educationLevel": "大学卒業以上",
+        "interests": "テクノロジー、デザイン、ビジネス",
+        "purchaseChannel": "オンライン書店、専門書店"
       },
       "style": {
-        "theme": "和風ファンタジー",
-        "colors": "深い藍色と金色",
-        "imagery": "刀と満月"
+        "theme": "モダン、ミニマリスト",
+        "colors": "モノクロ + アクセントカラー",
+        "imagery": "抽象的なデジタルアート"
       },
       "chapters": [
-        "封印された刀",
-        "月下の誓い",
-        "妖刀伝説",
-        "闇夜の舞",
-        "運命の交差点",
-        "古の力",
-        "月光の導き",
-        "最後の試練",
-        "魂の解放",
-        "新たな夜明け"
-      ]
-    },
-    {
-      "title": "神隠しの森",
-      "genre": "現代ファンタジー",
-      "demographics": {
-        "primaryAge": "12-30",
-        "targetGender": "全性別",
-        "educationLevel": "中学生以上",
-        "readingHabits": "ライトノベル読者",
-        "interests": "日本の民話、現代ファンタジー",
-        "purchaseChannel": "書店、電子書籍",
-        "pricePoint": "低〜中価格帯",
-        "marketPosition": "YA小説市場"
-      },
-      "style": {
-        "theme": "日本の民話",
-        "colors": "深緑と朱色",
-        "imagery": "鳥居と神秘の森"
-      },
-      "chapters": [
-        "消えた少女",
-        "森の囁き",
-        "神様の庭",
-        "時の狭間",
-        "妖怪の宴",
-        "記憶の欠片",
-        "約束の場所",
-        "境界の扉",
-        "祈りの道",
-        "帰還の時"
-      ]
-    },
-    {
-      "title": "龍の系譜",
-      "genre": "歴史ファンタジー",
-      "demographics": {
-        "primaryAge": "18-45",
-        "targetGender": "全性別",
-        "educationLevel": "高校生以上",
-        "readingHabits": "歴史小説愛好家",
-        "interests": "日本史、ファンタジー",
-        "purchaseChannel": "書店、オンライン",
-        "pricePoint": "中〜高価格帯",
-        "marketPosition": "本格歴史ファンタジー"
-      },
-      "style": {
-        "theme": "戦国時代",
-        "colors": "黒と赤",
-        "imagery": "龍と武将の紋章"
-      },
-      "chapters": [
-        "血脈の目覚め",
-        "運命の戦",
-        "龍の印",
-        "陰謀の渦",
-        "守護神の加護",
-        "決意の刻",
-        "継承の儀",
-        "最後の合戦",
-        "真実の瞬間",
-        "新時代の幕開け"
+        "第1章：デジタルトランスフォーメーション",
+        "第2章：創造性の再定義",
+        "第3章：AIと人間の共創",
+        "第4章：未来のワークスタイル"
       ]
     }
   ],
   "beverages": [
     {
-      "name": "禅の雫",
-      "type": "クラフト緑茶",
+      "name": "山霧緑茶",
       "demographics": {
-        "primaryAge": "25-50",
-        "targetMarket": "健康志向の都市生活者",
-        "lifestyle": "ウェルネス重視",
-        "purchasingPower": "中〜高所得層",
-        "consumptionHabits": "プレミアム飲料愛好家",
+        "primaryAge": "20-60歳",
+        "targetMarket": "健康志向の消費者",
         "healthConsciousness": "高",
-        "brandLoyalty": "高",
-        "shoppingVenue": "専門店、オーガニックショップ"
+        "shoppingVenue": "スーパー、オーガニックショップ"
       },
       "style": {
-        "theme": "禅/和",
-        "colors": "深緑と白",
-        "imagery": "竹と水滴"
+        "theme": "和モダン",
+        "colors": "深緑、金、白",
+        "imagery": "霧がかかった山々"
       },
       "ingredients": [
-        "有機緑茶",
-        "玄米",
-        "抹茶",
-        "桜の花",
-        "柚子",
-        "蜂蜜",
-        "生姜",
-        "煎茶",
-        "ほうじ茶",
-        "ミント"
-      ]
-    },
-    {
-      "name": "夏雲",
-      "type": "スパークリング和紅茶",
-      "demographics": {
-        "primaryAge": "18-35",
-        "targetMarket": "トレンド感度の高い若年層",
-        "lifestyle": "アクティブ、SNS活用",
-        "purchasingPower": "中所得層",
-        "consumptionHabits": "カフェ利用頻繁",
-        "healthConsciousness": "中",
-        "brandLoyalty": "中",
-        "shoppingVenue": "コンビニ、カフェ"
-      },
-      "style": {
-        "theme": "夏の涼",
-        "colors": "藍色とシルバー",
-        "imagery": "入道雲と波紋"
-      },
-      "ingredients": [
-        "和紅茶",
-        "炭酸水",
-        "レモングラス",
-        "ジャスミン",
-        "ピーチ",
-        "ライチ",
-        "ローズマリー",
-        "ラベンダー",
-        "青みかん",
-        "山椒"
-      ]
-    },
-    {
-      "name": "森の恵み",
-      "type": "発酵飲料",
-      "demographics": {
-        "primaryAge": "30-60",
-        "targetMarket": "健康志向の成熟層",
-        "lifestyle": "自然派、オーガニック重視",
-        "purchasingPower": "中〜高所得層",
-        "consumptionHabits": "自然食品愛好家",
-        "healthConsciousness": "非常に高",
-        "brandLoyalty": "高",
-        "shoppingVenue": "自然食品店、専門店"
-      },
-      "style": {
-        "theme": "自然/癒し",
-        "colors": "翡翠色と琥珀色",
-        "imagery": "苔と木漏れ日"
-      },
-      "ingredients": [
-        "甘酒",
-        "昆布茶",
-        "大麦若葉",
-        "菊花",
-        "梅エキス",
-        "杜仲茶",
-        "どくだみ",
-        "玄米酢",
-        "生姜シロップ",
-        "山葵"
+        "有機栽培緑茶",
+        "ビタミンC",
+        "ミネラル",
+        "カテキン"
       ]
     }
   ],
   "coffee": [
     {
       "name": "匠ブレンド",
-      "roast": "中煎り",
       "demographics": {
-        "primaryAge": "25-45",
-        "targetMarket": "コーヒー通",
-        "lifestyle": "こだわり派",
-        "purchasingPower": "中〜高所得層",
-        "consumptionHabits": "自家抽出派",
-        "coffeeKnowledge": "高",
-        "brandLoyalty": "高",
+        "primaryAge": "25-50歳",
+        "targetMarket": "コーヒー愛好家",
+        "coffeeKnowledge": "中級～上級",
         "preferredBrew": "ドリップ、フレンチプレス"
       },
       "style": {
         "theme": "職人技",
-        "colors": "焦茶と金",
-        "imagery": "手作業と道具"
+        "colors": "深褐色、金、黒",
+        "imagery": "コーヒー豆と道具"
       },
       "ingredients": [
-        "グアテマラ産豆",
-        "エチオピア産豆",
-        "キャラメル風味",
-        "柑橘系の酸味",
-        "チョコレート風味",
-        "ナッツの香り",
-        "蜂蜜のような甘み",
-        "スパイシーな後味",
-        "まろやかなコク",
-        "バランスの取れた味わい"
-      ]
-    },
-    {
-      "name": "月夜の珈琲",
-      "roast": "深煎り",
-      "demographics": {
-        "primaryAge": "30-60",
-        "targetMarket": "伝統派コーヒー愛好家",
-        "lifestyle": "落ち着いた生活",
-        "purchasingPower": "中〜高所得層",
-        "consumptionHabits": "毎日飲用",
-        "coffeeKnowledge": "中〜高",
-        "brandLoyalty": "高",
-        "preferredBrew": "ペーパードリップ"
-      },
-      "style": {
-        "theme": "夜の静寂",
-        "colors": "漆黒と銀",
-        "imagery": "月と星空"
-      },
-      "ingredients": [
-        "ブラジル産豆",
-        "インドネシア産豆",
-        "ビターな味わい",
-        "スモーキーな香り",
-        "黒糖のような甘み",
-        "深いコク",
-        "まろやかな口当たり",
-        "ダークチョコレート風味",
-        "スパイシーな余韻",
-        "重厚な味わい"
-      ]
-    },
-    {
-      "name": "朝露ブレンド",
-      "roast": "浅煎り",
-      "demographics": {
-        "primaryAge": "20-40",
-        "targetMarket": "カフェ通の若手社会人",
-        "lifestyle": "アーバン、トレンド重視",
-        "purchasingPower": "中所得層",
-        "consumptionHabits": "カフェ利用",
-        "coffeeKnowledge": "中",
-        "brandLoyalty": "中",
-        "preferredBrew": "ハンドドリップ、エアロプレス"
-      },
-      "style": {
-        "theme": "朝の目覚め",
-        "colors": "明るい茶色と緑",
-        "imagery": "朝日と露"
-      },
-      "ingredients": [
-        "コロンビア産豆",
-        "ケニア産豆",
-        "フルーティーな香り",
-        "爽やかな酸味",
-        "花のような香り",
-        "柑橘系の風味",
-        "軽やかな口当たり",
-        "すっきりとした後味",
-        "ジューシーな味わい",
-        "優しい甘み"
+        "エチオピアイルガチェフェ",
+        "グアテマラアンティグア",
+        "コロンビアスプレモ",
+        "ケニアAA"
       ]
     }
   ],
   "cdcovers": [
     {
-      "name": "夜空のシンフォニー",
-      "artist": "RADWIMPS",
       "demographics": {
-        "primaryAge": "15-35",
-        "mainAudience": "ロック/アニメファン",
-        "coreFollowing": "Z世代、ミレニアル世代",
-        "marketSegment": "学生・若手社会人",
-        "listeningHabits": "ストリーミング、ライブ参加",
-        "socialMediaPresence": "高い（Twitter, Instagram）"
+        "primaryAge": "18-35歳",
+        "mainAudience": "J-POP/ロック愛好家",
+        "coreFollowing": "SNSアクティブユーザー",
+        "socialMediaPresence": "Instagram, TikTok中心"
       },
       "style": {
-        "theme": "星空と都市",
-        "colors": "深い紺色とネオン",
-        "imagery": "夜景と星座",
-        "typography": "モダンな和文書体"
+        "theme": "ネオ和風",
+        "colors": "紫、金、黒",
+        "imagery": "現代的な和のモチーフ",
+        "typography": "ゴシック体 + 毛筆"
       },
       "elements": [
-        "都市の夜景シルエット",
-        "流れ星のモチーフ",
-        "光る建物の窓",
-        "星座のライン",
-        "バンドロゴ",
-        "アルバムタイトル",
-        "アーティスト名",
-        "レーベルロゴ",
-        "バーコード",
-        "著作権表示"
-      ]
-    },
-    {
-      "name": "桜流し",
-      "artist": "宇多田ヒカル",
-      "demographics": {
-        "primaryAge": "20-45",
-        "mainAudience": "J-POP/R&Bファン",
-        "coreFollowing": "ミレニアル世代、X世代",
-        "marketSegment": "社会人、主婦層",
-        "listeningHabits": "ストリーミング、CD購入",
-        "socialMediaPresence": "中程度（Instagram）"
-      },
-      "style": {
-        "theme": "和モダン",
-        "colors": "淡いピンクと墨色",
-        "imagery": "桜と水墨画",
-        "typography": "毛筆風書体"
-      },
-      "elements": [
-        "舞い散る桜びら",
-        "水墨画風の背景",
-        "アーティスト名",
-        "アルバムタイトル",
         "和柄パターン",
-        "曲目リスト",
-        "クレジット情報",
-        "レーベルロゴ",
-        "バーコード",
-        "著作権表示"
+        "モダンな書道",
+        "抽象的な波紋",
+        "金箔のアクセント"
       ]
-    },
+    }
+  ],
+  "movieposters": [
     {
-      "name": "電子庭園",
-      "artist": "Perfume",
+      "title": "時空の旅人",
       "demographics": {
-        "primaryAge": "18-40",
-        "mainAudience": "テクノポップ/ダンスミュージックファン",
-        "coreFollowing": "Z世代、ミレニアル世代",
-        "marketSegment": "ファッション感度高め、都市部在住",
-        "listeningHabits": "ライブ参加、グッズ購入",
-        "socialMediaPresence": "非常に高い（全プラットフォーム）"
+        "primaryAge": "15-45歳",
+        "mainAudience": "SF・アドベンチャー映画ファン",
+        "targetMarket": "都市部の映画愛好家",
+        "viewingHabits": "映画館での初回上映を重視"
       },
       "style": {
-        "theme": "サイバーパンク",
-        "colors": "ネオンピンクと電子ブルー",
-        "imagery": "デジタルガーデン",
+        "theme": "サイバーパンク×和風",
+        "colors": "ネオン青、紫、黒",
+        "imagery": "未来都市と伝統的な日本の要素",
         "typography": "未来的なフォント"
       },
       "elements": [
-        "デジタル花園",
-        "回路パターン",
-        "ホログラム効果",
-        "グリッチエフェクト",
-        "3Dレンダリング",
-        "バンドロゴ",
-        "アルバム情報",
-        "QRコード",
-        "バーコード",
-        "著作権表示"
-      ]
+        "浮遊する都市",
+        "時計の歯車",
+        "桜の花びら",
+        "光の軌跡"
+      ],
+      "cast": [
+        "山田太郎",
+        "佐藤花子",
+        "鈴木一郎",
+        "田中美咲"
+      ],
+      "genre": "SF/アドベンチャー",
+      "releaseDate": "2025年夏"
+    },
+    {
+      "title": "静寂の森",
+      "demographics": {
+        "primaryAge": "20-50歳",
+        "mainAudience": "ミステリー・サスペンス愛好家",
+        "targetMarket": "知的な映画ファン",
+        "viewingHabits": "映画評論を重視"
+      },
+      "style": {
+        "theme": "ダーク・ミステリアス",
+        "colors": "深緑、黒、霧がかった灰色",
+        "imagery": "神秘的な森林風景",
+        "typography": "エレガントなセリフ体"
+      },
+      "elements": [
+        "霧に包まれた木々",
+        "古い神社",
+        "満月",
+        "影の軌跡"
+      ],
+      "cast": [
+        "高橋真理",
+        "木村健一",
+        "中村愛",
+        "小林誠"
+      ],
+      "genre": "ミステリー/サスペンス",
+      "releaseDate": "2025年秋"
+    },
+    {
+      "title": "海底の記憶",
+      "demographics": {
+        "primaryAge": "12-30歳",
+        "mainAudience": "アニメーション・ファンタジー愛好家",
+        "targetMarket": "家族連れ、若年層",
+        "viewingHabits": "リピート視聴傾向"
+      },
+      "style": {
+        "theme": "ファンタジー・アドベンチャー",
+        "colors": "深い青、エメラルド、金",
+        "imagery": "幻想的な海中世界",
+        "typography": "流線型のオリジナルフォント"
+      },
+      "elements": [
+        "古代遺跡",
+        "神秘的な海洋生物",
+        "光る珊瑚礁",
+        "水中都市"
+      ],
+      "cast": [
+        "伊藤美月",
+        "渡辺海斗",
+        "山本琴音",
+        "佐々木翼"
+      ],
+      "genre": "アニメーション/ファンタジー",
+      "releaseDate": "2025年春"
+    },
+    {
+      "title": "最後のメロディー",
+      "demographics": {
+        "primaryAge": "25-55歳",
+        "mainAudience": "ドラマ・音楽映画ファン",
+        "targetMarket": "芸術愛好家",
+        "viewingHabits": "劇場での音響体験重視"
+      },
+      "style": {
+        "theme": "クラシカル・エモーショナル",
+        "colors": "深紅、金、漆黒",
+        "imagery": "楽器と感情表現",
+        "typography": "クラシカルな装飾体"
+      },
+      "elements": [
+        "グランドピアノ",
+        "五線譜",
+        "舞台のカーテン",
+        "スポットライト"
+      ],
+      "cast": [
+        "松本和真",
+        "野田詩織",
+        "斎藤響",
+        "藤原美咲"
+      ],
+      "genre": "ドラマ/音楽",
+      "releaseDate": "2025年冬"
+    },
+    {
+      "title": "都市の夜明け",
+      "demographics": {
+        "primaryAge": "18-40歳",
+        "mainAudience": "アクション・犯罪映画ファン",
+        "targetMarket": "スリラー愛好家",
+        "viewingHabits": "深夜上映を好む"
+      },
+      "style": {
+        "theme": "ネオノワール",
+        "colors": "漆黒、ネオン、雨に濡れた灰色",
+        "imagery": "現代都市の闇",
+        "typography": "シャープなサンセリフ"
+      },
+      "elements": [
+        "高層ビル群",
+        "雨に濡れた街路",
+        "ネオンサイン",
+        "車のヘッドライト"
+      ],
+      "cast": [
+        "黒川剣",
+        "白石麗子",
+        "村上龍",
+        "東条明"
+      ],
+      "genre": "アクション/犯罪",
+      "releaseDate": "2025年秋"
     }
   ]
 }

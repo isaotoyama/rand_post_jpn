@@ -1,132 +1,148 @@
 {
   "artists": [
     {
-      "name": "SMAP",
+      "name": "RADWIMPS",
       "demographics": {
-        "primaryAge": "15-60",
-        "era": "1990年代-2016年",
-        "mainAudience": "幅広い世代",
-        "coreFollowing": "ミレニアル世代、X世代"
-      }
-    },
-    {
-      "name": "宇多田ヒカル",
-      "demographics": {
-        "primaryAge": "15-45",
-        "era": "1990年代-現在",
-        "mainAudience": "J-POP ファン",
-        "coreFollowing": "ミレニアル世代、Z世代"
-      }
-    },
-    {
-      "name": "X JAPAN",
-      "demographics": {
-        "primaryAge": "18-55",
-        "era": "1980年代-現在",
-        "mainAudience": "ヴィジュアル系/ロックファン",
-        "coreFollowing": "X世代、ミレニアル世代"
-      }
-    },
-    {
-      "name": "AKB48",
-      "demographics": {
-        "primaryAge": "13-35",
-        "era": "2000年代-現在",
-        "mainAudience": "アイドルファン",
-        "coreFollowing": "ミレニアル世代、Z世代"
+        "era": "2000年代～現在",
+        "primaryAge": "15-35歳",
+        "mainAudience": "ロック・アニメファン",
+        "coreFollowing": "学生・若手社会人"
       }
     },
     {
       "name": "米津玄師",
       "demographics": {
-        "primaryAge": "15-40",
-        "era": "2010年代-現在",
-        "mainAudience": "現代J-POPファン",
-        "coreFollowing": "Z世代、ミレニアル世代"
-      }
-    },
-    {
-      "name": "B'z",
-      "demographics": {
-        "primaryAge": "20-55",
-        "era": "1980年代-現在",
-        "mainAudience": "ロックファン",
-        "coreFollowing": "X世代、ミレニアル世代"
-      }
-    },
-    {
-      "name": "安室奈美恵",
-      "demographics": {
-        "primaryAge": "15-50",
-        "era": "1990年代-2018年",
-        "mainAudience": "J-POP/R&Bファン",
-        "coreFollowing": "ミレニアル世代、X世代"
-      }
-    },
-    {
-      "name": "BABYMETAL",
-      "demographics": {
-        "primaryAge": "15-40",
-        "era": "2010年代-現在",
-        "mainAudience": "メタル/J-POPファン",
-        "coreFollowing": "Z世代、ミレニアル世代"
+        "era": "2010年代～現在",
+        "primaryAge": "15-40歳",
+        "mainAudience": "J-POP愛好家",
+        "coreFollowing": "アート・音楽ファン"
       }
     },
     {
       "name": "椎名林檎",
       "demographics": {
-        "primaryAge": "20-45",
-        "era": "1990年代-現在",
-        "mainAudience": "オルタナティブ音楽ファン",
-        "coreFollowing": "ミレニアル世代、X世代"
+        "era": "1990年代後半～現在",
+        "primaryAge": "25-45歳",
+        "mainAudience": "アート・ロック愛好家",
+        "coreFollowing": "都市部在住の音楽通"
       }
     },
     {
-      "name": "RADWIMPS",
+      "name": "King Gnu",
       "demographics": {
-        "primaryAge": "15-35",
-        "era": "2000年代-現在",
-        "mainAudience": "ロック/アニメファン",
-        "coreFollowing": "Z世代、ミレニアル世代"
+        "era": "2010年代後半～現在",
+        "primaryAge": "18-35歳",
+        "mainAudience": "ロック・オルタナティブファン",
+        "coreFollowing": "音楽フェス参加者"
+      }
+    },
+    {
+      "name": "あいみょん",
+      "demographics": {
+        "era": "2010年代後半～現在",
+        "primaryAge": "15-30歳",
+        "mainAudience": "フォーク・ポップファン",
+        "coreFollowing": "女性リスナー中心"
+      }
+    },
+    {
+      "name": "Official髭男dism",
+      "demographics": {
+        "era": "2010年代後半～現在",
+        "primaryAge": "15-35歳",
+        "mainAudience": "J-POP・ロックファン",
+        "coreFollowing": "学生・若手社会人"
+      }
+    },
+    {
+      "name": "YOASOBI",
+      "demographics": {
+        "era": "2019年～現在",
+        "primaryAge": "15-25歳",
+        "mainAudience": "小説・アニメファン",
+        "coreFollowing": "デジタルネイティブ世代"
+      }
+    },
+    {
+      "name": "Mrs. GREEN APPLE",
+      "demographics": {
+        "era": "2010年代～現在",
+        "primaryAge": "15-30歳",
+        "mainAudience": "ロック・ポップファン",
+        "coreFollowing": "SNSアクティブユーザー"
+      }
+    },
+    {
+      "name": "back number",
+      "demographics": {
+        "era": "2000年代後半～現在",
+        "primaryAge": "20-40歳",
+        "mainAudience": "ポップ・バラードファン",
+        "coreFollowing": "恋愛ソング愛好家"
+      }
+    },
+    {
+      "name": "サカナクション",
+      "demographics": {
+        "era": "2000年代～現在",
+        "primaryAge": "25-45歳",
+        "mainAudience": "テクノ・ロックファン",
+        "coreFollowing": "音楽・テクノロジー愛好家"
       }
     }
   ],
   "albums": [
-    "First Love",
-    "DEEP RIVER",
-    "BLUE BLOOD",
-    "DINOSAUR",
+    "天気の子",
     "BOOTLEG",
-    "River",
-    "Love Machine",
-    "ZERO",
-    "B'z The Best",
-    "Finally",
-    "METAL GALAXY",
-    "三文銭",
-    "天体観測",
-    "君の名は。"
+    "人間開花",
+    "馬と鹿",
+    "CEREMONY",
+    "STRAY SHEEP",
+    "THE BOOK",
+    "Attitude",
+    "Magic",
+    "834.194",
+    "HELLO EP",
+    "POP VIRUS",
+    "THE BOOK 2",
+    "魔法のじゅうたん",
+    "アンコール",
+    "SUPERMARKET FANTASY",
+    "PLANET",
+    "THE MILLENNIUM PARADE",
+    "BORDERLESS",
+    "MAGIC HOUR"
   ],
   "songs": [
-    "Automatic",
-    "First Love",
-    "紅",
-    "Forever Love",
-    "恋するフォーチュンクッキー",
+    "前前前世",
+    "スパークル",
+    "なんでもないや",
+    "打上花火",
     "Lemon",
     "馬と鹿",
-    "ultra soul",
-    "CAN YOU CELEBRATE?",
-    "ギミチョコ!!",
-    "丸の内サディスティック",
-    "前前前世",
-    "世界に一つだけの花",
-    "チェリー",
-    "TSUNAMI",
-    "天城越え",
-    "残酷な天使のテーゼ",
-    "シーソーゲーム",
-    "君が代",
-    "情熱大陸"
+    "パプリカ",
+    "アイネクライネ",
+    "orion",
+    "灰色と青",
+    "群青",
+    "怪物",
+    "アイドル",
+    "Pretender",
+    "宿命",
+    "クリスマスソング",
+    "新宝島",
+    "マリーゴールド",
+    "裸の心",
+    "青と夏",
+    "恋",
+    "TEENAGE RIOT",
+    "Mela!",
+    "水平線",
+    "カタオモイ",
+    "ドライフラワー",
+    "ハルジオン",
+    "夜に駆ける",
+    "群青",
+    "祝福"
   ]
 }
