@@ -234,7 +234,7 @@
     {
       "title": "禅とミニマリズム",
       "demographics": {
-        "primaryAge": "30-60歳",
+        "primaryAge": "30-50歳",
         "educationLevel": "問わない",
         "interests": "瞑想、ミニマリズム、生活改善",
         "purchaseChannel": "書店、オンライン"
@@ -245,10 +245,10 @@
         "imagery": "水墨画風の抽象表現"
       },
       "chapters": [
-        "第1章：心を整える",
-        "第2章：空間を整える",
-        "第3章：生活を整える",
-        "第4章：禅的生活の実践"
+        "第1章：現代社会と禅",
+        "第2章：ミニマリズムの実践",
+        "第3章：心の整理術",
+        "第4章：持続可能なライフスタイル"
       ]
     },
     {
@@ -256,79 +256,79 @@
       "demographics": {
         "primaryAge": "20-40歳",
         "educationLevel": "高校卒業以上",
-        "interests": "食、環境、サステナビリティ",
-        "purchaseChannel": "専門書店、オーガニックショップ"
+        "interests": "食、環境、テクノロジー",
+        "purchaseChannel": "専門書店、オンライン"
       },
       "style": {
-        "theme": "サイエンス×ナチュラル",
-        "colors": "緑、青、茶",
-        "imagery": "未来的な食物栽培"
+        "theme": "サイエンス、エコロジー",
+        "colors": "緑、青、白",
+        "imagery": "未来的な食物のイラスト"
       },
       "chapters": [
         "第1章：食の未来予測",
-        "第2章：代替タンパク質",
-        "第3章：垂直農法",
-        "第4章：持続可能な食生活"
+        "第2章：代替タンパク質革命",
+        "第3章：持続可能な農業",
+        "第4章：フードテック最前線"
       ]
     },
     {
       "title": "現代アート入門",
       "demographics": {
         "primaryAge": "18-35歳",
-        "educationLevel": "芸術に興味がある全ての人",
-        "interests": "アート、デザイン、文化",
-        "purchaseChannel": "美術館、専門書店"
+        "educationLevel": "問わない",
+        "interests": "アート、文化、表現",
+        "purchaseChannel": "美術館、書店"
       },
       "style": {
         "theme": "アーティスティック",
         "colors": "原色、パステル",
-        "imagery": "抽象×具象のコラージュ"
+        "imagery": "抽象アート"
       },
       "chapters": [
         "第1章：現代アートとは",
-        "第2章：主要なムーブメント",
-        "第3章：アーティストたち",
-        "第4章：作品の見方"
+        "第2章：主要なアーティスト",
+        "第3章：表現技法と解釈",
+        "第4章：アートと社会"
       ]
     },
     {
       "title": "都市の記憶",
       "demographics": {
-        "primaryAge": "25-50歳",
+        "primaryAge": "25-55歳",
         "educationLevel": "大学卒業以上",
-        "interests": "建築、都市計画、歴史",
-        "purchaseChannel": "建築専門書店、美術館"
+        "interests": "建築、歴史、都市計画",
+        "purchaseChannel": "専門書店"
       },
       "style": {
         "theme": "アーバン、ノスタルジック",
-        "colors": "セピア、グレー、深緑",
-        "imagery": "建築写真と図面"
+        "colors": "セピア、グレー",
+        "imagery": "都市風景スケッチ"
       },
       "chapters": [
-        "第1章：都市の進化",
-        "第2章：失われた建築",
-        "第3章：記憶の保存",
-        "第4章：未来への継承"
+        "第1章：都市の変遷",
+        "第2章：建築の物語",
+        "第3章：人々の暮らし",
+        "第4章：未来への展望"
       ]
     },
     {
-      "title": "量子心理学",
+      "title": "量子コンピューティング入門",
       "demographics": {
-        "primaryAge": "25-45歳",
-        "educationLevel": "大学卒業以上",
-        "interests": "心理学、物理学、哲学",
-        "purchaseChannel": "専門書店、大学生協"
+        "primaryAge": "20-40歳",
+        "educationLevel": "理系大学生以上",
+        "interests": "物理学、コンピュータ科学",
+        "purchaseChannel": "大学生協、専門書店"
       },
       "style": {
-        "theme": "サイエンス、ミステリアス",
-        "colors": "深青、紫、金",
-        "imagery": "量子の視覚化"
+        "theme": "ハイテク、アカデミック",
+        "colors": "青、紫、白",
+        "imagery": "量子回路図"
       },
       "chapters": [
-        "第1章：意識と量子",
-        "第2章：観測と現実",
-        "第3章：量子心理",
-        "第4章：実践と応用"
+        "第1章：量子力学の基礎",
+        "第2章：量子ビットと演算",
+        "第3章：量子アルゴリズム",
+        "第4章：実装と応用"
       ]
     },
     {
@@ -336,12 +336,12 @@
       "demographics": {
         "primaryAge": "全年齢",
         "educationLevel": "問わない",
-        "interests": "日本文化、伝統、写真",
-        "purchaseChannel": "書店、観光地"
+        "interests": "伝統文化、写真、旅行",
+        "purchaseChannel": "一般書店、観光地"
       },
       "style": {
-        "theme": "伝統×現代",
-        "colors": "赤、金、紺",
+        "theme": "伝統的、華やか",
+        "colors": "赤、金、黒",
         "imagery": "祭りの写真"
       },
       "chapters": [
@@ -352,63 +352,263 @@
       ]
     },
     {
-      "title": "サイバーセキュリティ入門",
+      "title": "瞑想と脳科学",
       "demographics": {
-        "primaryAge": "20-40歳",
-        "educationLevel": "IT基礎知識必要",
-        "interests": "技術、セキュリティ、IT",
-        "purchaseChannel": "技術書専門店、オンライン"
+        "primaryAge": "25-50歳",
+        "educationLevel": "大学卒業以上",
+        "interests": "心理学、脳科学、瞑想",
+        "purchaseChannel": "専門書店、オンライン"
       },
       "style": {
-        "theme": "テック、ダーク",
-        "colors": "黒、緑、青",
+        "theme": "サイエンス、ヒーリング",
+        "colors": "青、緑、白",
+        "imagery": "脳のイラスト"
+      },
+      "chapters": [
+        "第1章：瞑想の科学",
+        "第2章：脳の可塑性",
+        "第3章：実践方法",
+        "第4章：研究成果"
+      ]
+    },
+    {
+      "title": "サイバーセキュリティ戦略",
+      "demographics": {
+        "primaryAge": "25-45歳",
+        "educationLevel": "IT関連従事者",
+        "interests": "情報セキュリティ、技術",
+        "purchaseChannel": "専門書店、オンライン"
+      },
+      "style": {
+        "theme": "テクニカル、シリアス",
+        "colors": "黒、緑、赤",
         "imagery": "デジタルセキュリティ"
       },
       "chapters": [
-        "第1章：脅威の理解",
-        "第2章：防御の基本",
-        "第3章：実践テクニック",
-        "第4章：インシデント対応"
+        "第1章：脅威の進化",
+        "第2章：防御戦略",
+        "第3章：インシデント対応",
+        "第4章：未来の課題"
       ]
     },
     {
-      "title": "瞑想とマインドフルネス",
+      "title": "宇宙探査の新時代",
+      "demographics": {
+        "primaryAge": "15-45歳",
+        "educationLevel": "中学生以上",
+        "interests": "宇宙、科学、技術",
+        "purchaseChannel": "一般書店、科学館"
+      },
+      "style": {
+        "theme": "スペース、サイエンス",
+        "colors": "深青、紫、銀",
+        "imagery": "宇宙写真"
+      },
+      "chapters": [
+        "第1章：民間宇宙開発",
+        "第2章：火星探査",
+        "第3章：新技術",
+        "第4章：未来展望"
+      ]
+    },
+    {
+      "title": "日本庭園の美学",
+      "demographics": {
+        "primaryAge": "30-60歳",
+        "educationLevel": "問わない",
+        "interests": "園芸、伝統文化、デザイン",
+        "purchaseChannel": "専門書店、庭園"
+      },
+      "style": {
+        "theme": "和風、自然",
+        "colors": "緑、茶、灰",
+        "imagery": "庭園写真"
+      },
+      "chapters": [
+        "第1章：庭園の歴史",
+        "第2章：デザイン原理",
+        "第3章：植栽と風景",
+        "第4章：現代の解釈"
+      ]
+    },
+    {
+      "title": "AIと倫理",
+      "demographics": {
+        "primaryAge": "20-50歳",
+        "educationLevel": "大学生以上",
+        "interests": "技術、哲学、倫理",
+        "purchaseChannel": "専門書店、大学"
+      },
+      "style": {
+        "theme": "フィロソフィカル、テック",
+        "colors": "グレー、青、白",
+        "imagery": "抽象的なAI表現"
+      },
+      "chapters": [
+        "第1章：AI発展史",
+        "第2章：倫理的課題",
+        "第3章：規制と指針",
+        "第4章：共生の未来"
+      ]
+    },
+    {
+      "title": "和食の科学",
       "demographics": {
         "primaryAge": "25-55歳",
         "educationLevel": "問わない",
-        "interests": "瞑想、健康、セルフケア",
-        "purchaseChannel": "書店、ヨガスタジオ"
+        "interests": "料理、科学、健康",
+        "purchaseChannel": "書店、料理教室"
       },
       "style": {
-        "theme": "ピースフル、ナチュラル",
-        "colors": "パステル、水色、白",
-        "imagery": "自然と調和"
+        "theme": "和モダン、サイエンス",
+        "colors": "赤、白、黒",
+        "imagery": "食材と分子構造"
       },
       "chapters": [
-        "第1章：瞑想の基礎",
-        "第2章：日常の実践",
-        "第3章：心身の変化",
-        "第4章：深い気づき"
+        "第1章：発酵の科学",
+        "第2章：うま味の研究",
+        "第3章：調理の化学",
+        "第4章：健康効果"
       ]
     },
     {
-      "title": "未来の働き方",
+      "title": "デジタルアート入門",
       "demographics": {
-        "primaryAge": "22-45歳",
-        "educationLevel": "大学卒業以上",
-        "interests": "ビジネス、キャリア、テクノロジー",
-        "purchaseChannel": "ビジネス書店、オンライン"
+        "primaryAge": "16-35歳",
+        "educationLevel": "問わない",
+        "interests": "アート、デジタル、創作",
+        "purchaseChannel": "オンライン、専門店"
       },
       "style": {
-        "theme": "ビジネス、イノベーティブ",
-        "colors": "青、グレー、白",
-        "imagery": "未来的なオフィス"
+        "theme": "デジタル、クリエイティブ",
+        "colors": "虹色、黒",
+        "imagery": "デジタルアート"
       },
       "chapters": [
-        "第1章：変化する労働",
-        "第2章：新しい働き方",
-        "第3章：スキルの再定義",
-        "第4章：キャリア戦略"
+        "第1章：基礎技術",
+        "第2章：表現方法",
+        "第3章：ツール活用",
+        "第4章：作品制作"
+      ]
+    },
+    {
+      "title": "持続可能な建築",
+      "demographics": {
+        "primaryAge": "25-50歳",
+        "educationLevel": "建築関連従事者",
+        "interests": "建築、環境、デザイン",
+        "purchaseChannel": "専門書店"
+      },
+      "style": {
+        "theme": "エコ、アーキテクチャ",
+        "colors": "緑、茶、白",
+        "imagery": "エコ建築"
+      },
+      "chapters": [
+        "第1章：環境建築",
+        "第2章：素材と技術",
+        "第3章：設計方法",
+        "第4章：実例研究"
+      ]
+    },
+    {
+      "title": "現代音楽論",
+      "demographics": {
+        "primaryAge": "18-40歳",
+        "educationLevel": "音楽関連学生以上",
+        "interests": "音楽、理論、現代芸術",
+        "purchaseChannel": "音楽大学、専門店"
+      },
+      "style": {
+        "theme": "ミュージカル、アカデミック",
+        "colors": "黒、赤、金",
+        "imagery": "楽譜とパターン"
+      },
+      "chapters": [
+        "第1章：現代音楽史",
+        "第2章：作曲技法",
+        "第3章：電子音楽",
+        "第4章：実験音楽"
+      ]
+    },
+    {
+      "title": "日本の妖怪学",
+      "demographics": {
+        "primaryAge": "全年齢",
+        "educationLevel": "問わない",
+        "interests": "民俗学、文化、歴史",
+        "purchaseChannel": "一般書店"
+      },
+      "style": {
+        "theme": "和風、ミステリアス",
+        "colors": "墨色、朱色",
+        "imagery": "妖怪画"
+      },
+      "chapters": [
+        "第1章：妖怪の起源",
+        "第2章：地域の伝承",
+        "第3章：現代の解釈",
+        "第4章：文化的影響"
+      ]
+    },
+    {
+      "title": "クリプトアート革命",
+      "demographics": {
+        "primaryAge": "20-40歳",
+        "educationLevel": "問わない",
+        "interests": "暗号資産、アート、技術",
+        "purchaseChannel": "オンライン"
+      },
+      "style": {
+        "theme": "サイバー、アート",
+        "colors": "ネオン、黒",
+        "imagery": "デジタルアート"
+      },
+      "chapters": [
+        "第1章：NFTの基礎",
+        "第2章：市場動向",
+        "第3章：作品制作",
+        "第4章：未来展望"
+      ]
+    },
+    {
+      "title": "心理学と色彩",
+      "demographics": {
+        "primaryAge": "20-45歳",
+        "educationLevel": "大学生以上",
+        "interests": "心理学、デザイン、芸術",
+        "purchaseChannel": "専門書店"
+      },
+      "style": {
+        "theme": "サイコロジカル、アート",
+        "colors": "虹色グラデーション",
+        "imagery": "色彩心理図"
+      },
+      "chapters": [
+        "第1章：色の知覚",
+        "第2章：感情と色",
+        "第3章：文化的意味",
+        "第4章：応用研究"
+      ]
+    },
+    {
+      "title": "未来医療の展望",
+      "demographics": {
+        "primaryAge": "25-55歳",
+        "educationLevel": "医療関係者",
+        "interests": "医学、技術、健康",
+        "purchaseChannel": "医学書店"
+      },
+      "style": {
+        "theme": "メディカル、未来",
+        "colors": "白、水色、銀",
+        "imagery": "医療イラスト"
+      },
+      "chapters": [
+        "第1章：遺伝子治療",
+        "第2章：AI診断",
+        "第3章：再生医療",
+        "第4章：個別化医療"
       ]
     }
   ],
@@ -434,183 +634,381 @@
       ]
     },
     {
-      "name": "クラフトコーラ「和」",
+      "name": "青い海のスパークリング",
       "demographics": {
-        "primaryAge": "15-35歳",
-        "targetMarket": "ナチュラル志向の若者",
+        "primaryAge": "20-40歳",
+        "targetMarket": "アクティブな都市生活者",
         "healthConsciousness": "中",
-        "shoppingVenue": "カフェ、セレクトショップ"
+        "shoppingVenue": "コンビニ、スーパー"
       },
       "style": {
-        "theme": "ジャパニーズモダン",
-        "colors": "藍色、朱色、白",
-        "imagery": "和柄パターン"
+        "theme": "マリン、リフレッシュ",
+        "colors": "青、水色、白",
+        "imagery": "波と泡"
       },
       "ingredients": [
-        "国産柑橘",
+        "炭酸水",
+        "海洋深層水",
+        "ミネラル",
+        "天然香料"
+      ]
+    },
+    {
+      "name": "森のベリーティー",
+      "demographics": {
+        "primaryAge": "15-35歳",
+        "targetMarket": "若い女性",
+        "healthConsciousness": "中～高",
+        "shoppingVenue": "カフェ、専門店"
+      },
+      "style": {
+        "theme": "ナチュラル、ガーリー",
+        "colors": "ピンク、紫、緑",
+        "imagery": "森の果実"
+      },
+      "ingredients": [
+        "有機紅茶",
+        "ワイルドベリー",
+        "ローズヒップ",
+        "ハイビスカス"
+      ]
+    },
+    {
+      "name": "禅クラフトコーラ",
+      "demographics": {
+        "primaryAge": "20-35歳",
+        "targetMarket": "トレンド感度高い層",
+        "healthConsciousness": "中",
+        "shoppingVenue": "セレクトショップ、カフェ"
+      },
+      "style": {
+        "theme": "和風モダン",
+        "colors": "黒、金、赤",
+        "imagery": "墨絵風デザイン"
+      },
+      "ingredients": [
+        "コーラナッツ",
         "和漢素材",
-        "純水",
+        "炭酸水",
         "オーガニック甘味料"
       ]
     },
     {
-      "name": "スーパーフルーツブレンド",
+      "name": "サイバーエナジー",
       "demographics": {
-        "primaryAge": "25-45歳",
-        "targetMarket": "アクティブな社会人",
-        "healthConsciousness": "高",
-        "shoppingVenue": "ジム、健康食品店"
+        "primaryAge": "15-30歳",
+        "targetMarket": "ゲーマー、学生",
+        "healthConsciousness": "低～中",
+        "shoppingVenue": "コンビニ、ゲームショップ"
       },
       "style": {
-        "theme": "ビタミンエナジー",
-        "colors": "ビビッドピンク、オレンジ、紫",
-        "imagery": "フルーツの断面"
+        "theme": "サイバーパンク",
+        "colors": "ネオン青、紫、黒",
+        "imagery": "デジタルグリッド"
       },
       "ingredients": [
-        "アサイー",
-        "ゴジベリー",
-        "マキベリー",
-        "ザクロエキス"
+        "カフェイン",
+        "タウリン",
+        "ビタミンB群",
+        "電解質"
+      ]
+    },
+    {
+      "name": "和漢ブレンド",
+      "demographics": {
+        "primaryAge": "30-60歳",
+        "targetMarket": "健康意識高い層",
+        "healthConsciousness": "高",
+        "shoppingVenue": "薬局、専門店"
+      },
+      "style": {
+        "theme": "伝統的、薬草",
+        "colors": "茶、金、深緑",
+        "imagery": "漢方素材"
+      },
+      "ingredients": [
+        "クコの実",
+        "なつめ",
+        "人参",
+        "菊花"
+      ]
+    },
+    {
+      "name": "アルプスの天然水",
+      "demographics": {
+        "primaryAge": "全年齢",
+        "targetMarket": "品質重視層",
+        "healthConsciousness": "高",
+        "shoppingVenue": "スーパー、自然食品店"
+      },
+      "style": {
+        "theme": "ピュア、ナチュラル",
+        "colors": "白、青、銀",
+        "imagery": "雪山"
+      },
+      "ingredients": [
+        "天然水",
+        "ミネラル"
+      ]
+    },
+    {
+      "name": "トロピカルスムージー",
+      "demographics": {
+        "primaryAge": "20-40歳",
+        "targetMarket": "健康志向の若者",
+        "healthConsciousness": "高",
+        "shoppingVenue": "ジム、カフェ"
+      },
+      "style": {
+        "theme": "トロピカル、ビタミン",
+        "colors": "黄、オレンジ、緑",
+        "imagery": "南国フルーツ"
+      },
+      "ingredients": [
+        "マンゴー",
+        "パイナップル",
+        "パッションフルーツ",
+        "ココナッツウォーター"
       ]
     },
     {
       "name": "禅スパークリング",
       "demographics": {
-        "primaryAge": "30-50歳",
-        "targetMarket": "ミニマリスト志向",
+        "primaryAge": "25-45歳",
+        "targetMarket": "ミニマリスト",
         "healthConsciousness": "高",
-        "shoppingVenue": "高級スーパー、デパート"
+        "shoppingVenue": "専門店、デザインショップ"
       },
       "style": {
-        "theme": "ミニマル",
-        "colors": "白、黒、銀",
-        "imagery": "水墨画風の波紋"
+        "theme": "ミニマル、禅",
+        "colors": "白、黒、グレー",
+        "imagery": "水墨画"
       },
       "ingredients": [
-        "天然水",
-        "柚子エキス",
-        "竹炭",
-        "ハーブエキス"
+        "炭酸水",
+        "柚子",
+        "抹茶",
+        "竹炭"
       ]
     },
     {
-      "name": "バイオエナジー",
+      "name": "アーティストブレンド",
       "demographics": {
-        "primaryAge": "18-35歳",
-        "targetMarket": "スポーツ愛好家",
-        "healthConsciousness": "中～高",
-        "shoppingVenue": "スポーツショップ、コンビニ"
+        "primaryAge": "20-35歳",
+        "targetMarket": "クリエイティブ層",
+        "healthConsciousness": "中",
+        "shoppingVenue": "アートカフェ、ギャラリー"
       },
       "style": {
-        "theme": "ハイテク",
-        "colors": "電光ブルー、ネオンイエロー",
-        "imagery": "デジタル波形"
+        "theme": "アート、表現",
+        "colors": "多色使い",
+        "imagery": "抽象画"
       },
       "ingredients": [
-        "BCAA",
-        "アミノ酸",
-        "カフェイン",
+        "コーヒー",
+        "アーモンドミルク",
+        "バニラ",
+        "スパイス"
+      ]
+    },
+    {
+      "name": "夜光虫の輝き",
+      "demographics": {
+        "primaryAge": "15-30歳",
+        "target Market": "SNS世代",
+        "healthConsciousness": "中",
+        "shoppingVenue": "エンタメ施設、専門店"
+      },
+      "style": {
+        "theme": "ファンタジー",
+        "colors": "蛍光ブルー",
+        "imagery": "光る海"
+      },
+      "ingredients": [
+        "炭酸水",
+        "スピルリナ",
+        "天然色素",
         "ビタミンB群"
       ]
     },
     {
-      "name": "和漢ブレンドティー",
+      "name": "侍エナジー",
       "demographics": {
-        "primaryAge": "40-70歳",
-        "targetMarket": "健康意識の高い中高年",
-        "healthConsciousness": "非常に高",
-        "shoppingVenue": "漢方薬局、専門店"
+        "primaryAge": "18-35歳",
+        "targetMarket": "スポーツ愛好家",
+        "healthConsciousness": "中～高",
+        "shoppingVenue": "ジム、スポーツショップ"
       },
       "style": {
-        "theme": "伝統医学",
-        "colors": "茶、金、赤",
-        "imagery": "漢方素材のイラスト"
+        "theme": "武士道",
+        "colors": "赤、黒、金",
+        "imagery": "刀と鎧"
       },
       "ingredients": [
-        "烏龍茶",
-        "人参",
-        "枸杞子",
-        "菊花"
+        "マカ",
+        "朝鮮人参",
+        "カフェイン",
+        "アミノ酸"
       ]
     },
     {
-      "name": "フューチャーウォーター",
+      "name": "未来茶",
       "demographics": {
         "primaryAge": "20-40歳",
-        "targetMarket": "テクノロジー愛好家",
-        "healthConsciousness": "中",
-        "shoppingVenue": "セレクトショップ、オンライン"
+        "targetMarket": "テクノロジー好き",
+        "healthConsciousness": "高",
+        "shoppingVenue": "ハイテクショップ"
       },
       "style": {
-        "theme": "未来的",
-        "colors": "クリア、ホログラム",
-        "imagery": "幾何学パターン"
+        "theme": "フューチャリスティック",
+        "colors": "シルバー、青、白",
+        "imagery": "ホログラム"
       },
       "ingredients": [
-        "電解水",
-        "水素",
-        "ミネラル",
+        "緑茶",
+        "スーパーフード",
+        "ノotropics",
         "電解質"
       ]
     },
     {
-      "name": "アーバンスムージー",
+      "name": "和風コーラ",
       "demographics": {
-        "primaryAge": "25-40歳",
-        "targetMarket": "都市部のプロフェッショナル",
-        "healthConsciousness": "高",
-        "shoppingVenue": "オフィス街カフェ、デリ"
+        "primaryAge": "15-35歳",
+        "targetMarket": "フュージョン好き",
+        "healthConsciousness": "中",
+        "shoppingVenue": "コンビニ、カフェ"
       },
       "style": {
-        "theme": "シティライフ",
-        "colors": "グレー、パステル",
-        "imagery": "都市風景シルエット"
+        "theme": "和洋折衷",
+        "colors": "赤、金、黒",
+        "imagery": "波紋と桜"
       },
       "ingredients": [
-        "ケール",
-        "スピルリナ",
-        "バナナ",
-        "アーモンドミルク"
+        "コーラベース",
+        "抹茶",
+        "柚子",
+        "生姜"
       ]
     },
     {
-      "name": "森林の恵み",
+      "name": "瞑想ティー",
       "demographics": {
-        "primaryAge": "30-60歳",
-        "targetMarket": "自然派志向",
+        "primaryAge": "25-50歳",
+        "targetMarket": "マインドフルネス実践者",
         "healthConsciousness": "高",
-        "shoppingVenue": "自然食品店、農産物直売所"
+        "shoppingVenue": "ヨガスタジオ、専門店"
       },
       "style": {
-        "theme": "ナチュラル",
-        "colors": "深緑、茶、金",
-        "imagery": "森林写真"
+        "theme": "禅、瞑想",
+        "colors": "パステル、白",
+        "imagery": "曼荼羅"
       },
       "ingredients": [
-        "白樺樹液",
-        "山葡萄",
-        "ハチミツ",
-        "ハーブ"
+        "ルイボス",
+        "カモミール",
+        "ラベンダー",
+        "バラ"
       ]
     },
     {
-      "name": "アートコーラ",
+      "name": "電脳ドリンク",
       "demographics": {
         "primaryAge": "18-35歳",
-        "targetMarket": "アート愛好家",
+        "targetMarket": "IT従事者",
         "healthConsciousness": "中",
-        "shoppingVenue": "美術館、カフェ"
+        "shoppingVenue": "オフィス街、コンビニ"
       },
       "style": {
-        "theme": "アートギャラリー",
-        "colors": "多色使い、金",
-        "imagery": "現代アート"
+        "theme": "サイバー",
+        "colors": "緑、黒、白",
+        "imagery": "バイナリコード"
       },
       "ingredients": [
-        "コーラナッツ",
-        "スパイス",
-        "オーガニック糖",
-        "天然香料"
+        "カフェイン",
+        "L-テアニン",
+        "ビタミンB群",
+        "DHA"
+      ]
+    },
+    {
+      "name": "匠の炭酸",
+      "demographics": {
+        "primaryAge": "25-45歳",
+        "targetMarket": "クラフト好き",
+        "healthConsciousness": "中～高",
+        "shoppingVenue": "クラフトショップ"
+      },
+      "style": {
+        "theme": "職人技",
+        "colors": "藍、茶、金",
+        "imagery": "伝統工芸"
+      },
+      "ingredients": [
+        "天然炭酸水",
+        "和素材",
+        "ハーブ",
+        "ミネラル"
+      ]
+    },
+    {
+      "name": "花見ソーダ",
+      "demographics": {
+        "primaryAge": "全年齢",
+        "targetMarket": "季節限定商品愛好家",
+        "healthConsciousness": "中",
+        "shoppingVenue": "スーパー、コンビニ"
+      },
+      "style": {
+        "theme": "春、桜",
+        "colors": "ピンク、白",
+        "imagery": "桜吹雪"
+      },
+      "ingredients": [
+        "炭酸水",
+        "桜エキス",
+        "リンゴ果汁",
+        "バラ"
+      ]
+    },
+    {
+      "name": "深海ミネラル",
+      "demographics": {
+        "primaryAge": "30-60歳",
+        "targetMarket": "健康意識高い層",
+        "healthConsciousness": "高",
+        "shoppingVenue": "自然食品店"
+      },
+      "style": {
+        "theme": "マリン、ミステリアス",
+        "colors": "深青、黒",
+        "imagery": "深海"
+      },
+      "ingredients": [
+        "深層水",
+        "海洋ミネラル",
+        "フコイダン",
+        "マグネシウム"
+      ]
+    },
+    {
+      "name": "月見オーレ",
+      "demographics": {
+        "primaryAge": "20-40歳",
+        "targetMarket": "和モダン好き",
+        "healthConsciousness": "中～高",
+        "shoppingVenue": "カフェ、専門店"
+      },
+      "style": {
+        "theme": "和風ナイト",
+        "colors": "紺、銀、金",
+        "imagery": "満月と雲"
+      },
+      "ingredients": [
+        "ほうじ茶",
+        "アーモンドミルク",
+        "黒蜜",
+        "きな粉"
       ]
     }
   ],
@@ -633,166 +1031,6 @@
         "グアテマラアンティグア",
         "コロンビアスプレモ",
         "ケニアAA"
-      ]
-    },
-    {
-      "name": "シングルオリジン・ゲイシャ",
-      "demographics": {
-        "primaryAge": "30-55歳",
-        "targetMarket": "コーヒー通",
-        "coffeeKnowledge": "上級",
-        "preferredBrew": "ハンドドリップ、サイフォン"
-      },
-      "style": {
-        "theme": "プレミアム",
-        "colors": "パールホワイト、金、バーガンディ",
-        "imagery": "コーヒーの花"
-      },
-      "ingredients": [
-        "パナマ ゲイシャ",
-        "エチオピア ゲイシャ",
-        "コロンビア ゲイシャ",
-        "グアテマラ ゲイシャ"
-      ]
-    },
-    {
-      "name": "モーニングルーティン",
-      "demographics": {
-        "primaryAge": "20-40歳",
-        "targetMarket": "ビジネスパーソン",
-        "coffeeKnowledge": "初級～中級",
-        "preferredBrew": "ドリップバッグ、エスプレッソマシン"
-      },
-      "style": {
-        "theme": "アーバン",
-        "colors": "ネイビー、シルバー、白",
-        "imagery": "都市の朝景"
-      },
-      "ingredients": [
-        "ブラジルサントス",
-        "コロンビアスプレモ",
-        "インドネシアマンデリン",
-        "グアテマラ"
-      ]
-    },
-    {
-      "name": "オーガニックハーモニー",
-      "demographics": {
-        "primaryAge": "25-45歳",
-        "targetMarket": "環境意識の高い消費者",
-        "coffeeKnowledge": "中級",
-        "preferredBrew": "フレンチプレス、コールドブリュー"
-      },
-      "style": {
-        "theme": "エコフレンドリー",
-        "colors": "深緑、茶、ナチュラルベージュ",
-        "imagery": "コーヒーの木と葉"
-      },
-      "ingredients": [
-        "ペルーオーガニック",
-        "メキシコオーガニック",
-        "エチオピアオーガニック",
-        "ホンジュラスオーガニック"
-      ]
-    },
-    {
-      "name": "デカフェナイト",
-      "demographics": {
-        "primaryAge": "30-60歳",
-        "targetMarket": "カフェイン制限者",
-        "coffeeKnowledge": "中級",
-        "preferredBrew": "ドリップ、フレンチプレス"
-      },
-      "style": {
-        "theme": "リラックス",
-        "colors": "パープル、シルバー、ダークブルー",
-        "imagery": "月と星空"
-      },
-      "ingredients": [
-        "コロンビアデカフェ",
-        "エチオピアデカフェ",
-        "ブラジルデカフェ",
-        "グアテマラデカフェ"
-      ]
-    },
-    {
-      "name": "バリスタズチョイス",
-      "demographics": {
-        "primaryAge": "25-40歳",
-        "targetMarket": "カフェバリスタ、専門家",
-        "coffeeKnowledge": "上級",
-        "preferredBrew": "エスプレッソ、プアオーバー"
-      },
-      "style": {
-        "theme": "プロフェッショナル",
-        "colors": "マットブラック、ゴールド",
-        "imagery": "バリスタツール"
-      },
-      "ingredients": [
-        "エチオピアイルガチェフェ",
-        "コスタリカ タラス",
-        "イエメン モカ",
-        "ケニアAA+"
-      ]
-    },
-    {
-      "name": "和風ブレンド",
-      "demographics": {
-        "primaryAge": "40-70歳",
-        "targetMarket": "伝統的な味わい好み",
-        "coffeeKnowledge": "中級",
-        "preferredBrew": "ネルドリップ、サイフォン"
-      },
-      "style": {
-        "theme": "和モダン",
-        "colors": "藍色、金、墨色",
-        "imagery": "和紙テクスチャ"
-      },
-      "ingredients": [
-        "モカマタリ",
-        "マンデリン",
-        "コロンビア",
-        "ブラジルサントス"
-      ]
-    },
-    {
-      "name": "コールドブリューセレクト",
-      "demographics": {
-        "primaryAge": "20-35歳",
-        "targetMarket": "トレンド重視の若者",
-        "coffeeKnowledge": "中級",
-        "preferredBrew": "コールドブリュー専用"
-      },
-      "style": {
-        "theme": "モダン＆クール",
-        "colors": "アイスブルー、シルバー、白",
-        "imagery": "氷と水滴"
-      },
-      "ingredients": [
-        "グアテマラ アンティグア",
-        "エチオピア シダモ",
-        "コロンビア カウカ",
-        "ブラジル セラード"
-      ]
-    },
-    {
-      "name": "アートロースト",
-      "demographics": {
-        "primaryAge": "25-45歳",
-        "targetMarket": "アート愛好家",
-        "coffeeKnowledge": "中級～上級",
-        "preferredBrew": "多様な抽出方法"
-      },
-      "style": {
-        "theme": "アーティスティック",
-        "colors": "マルチカラー、金",
-        "imagery": "抽象的なコーヒーアート"
-      },
-      "ingredients": [
-        "エチオピア イルガチェフェ",
-        "パナマ エスメラルダ",
-        "ケニア ニエリ",
-        "コスタリカ ラ・ミネルバ"
       ]
     },
     {
